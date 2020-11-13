@@ -1,71 +1,108 @@
 <!DOCTYPE html>
 <html lang="ru">
-  <head>
-    <meta charset="UTF-8">
-    <link rel="stylesheet" href="style.css">
-    <title>Портфолио Junior верстальщика</title>
-    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,500,700|Old+Standard+TT&display=swap&subset=cyrillic" rel="stylesheet">
-  </head>
 
-  <body>
-    <header class="page-header">
-      <div class="container">
-        Связатся со мной можно по адресу - Сибирская тайга, река,
-         четвертая плотина, стучаться в пень.
-       </div>
-      </header>
+<head>
+  <meta charset="UTF-8" />
+  <link rel="stylesheet" href="style.css" />
+  <title>Портфолио Junior верстальщика</title>
+  <meta name="description" content="Первый сайт разработанный в ходе обучения веб-верстке, на ресурсе HTML-Academy"
+    <link
+    href="https://fonts.googleapis.com/css?family=Montserrat:400,500,700|Old+Standard+TT&display=swap&subset=cyrillic"
+    rel="stylesheet" />
+</head>
 
-    <section class="hero-image">
-      <div class="container">
-        <h1 class="heading">Бобёр Обыкновенный</h1>
-        <p>Синьор верстальщик, мегапрофи</p>
-      </div>
-      
-    </section>
+<body class="page light-theme">
+  <header class="page-header">
+    <div class="container">
+      Связаться со мной можно по адресу - Сибирская тайга, река, четвертая
+      плотина, стучаться в пень<br />
+      Телефон <a class="header-phone" href="tel:+79696969696">+7 969 969 96 96 </a>
+      <br />
+      Почта <a class="header-email" href="mailto:bober@gmail.com">bober@gmail.com </a>
+    </div>
+    <div>
+      <button class="theme-button" type="button">Изменить тему</button>
+    </div>
+  </header>
 
-    <section class="intro">
+  <section class="hero-image">
+    <div class="container">
+      <h1 class="heading">Бобёр Обыкновенный</h1>
+      <p>Синьор верстальщик, мегапрофи</p>
+    </div>
+  </section>
+
+  <section class="intro">
+    <div class="container">
       <h2 class="subheading">Давайте познакомимся</h2>
-      <div class="container">
+      <figure class="user-image">
+        <img src="files/user2.jpg" width="60%" alt="Бобёр собственной персоной" />
+      </figure>
+      <div>
         <h3>Пара слов о себе</h3>
-      </div>
-     <div class="container">
-        <p>Обыкнове́нный бобр, или речно́й бобр (лат. Castor fiber),
-          — полуводное млекопитающее отряда грызунов;
-          один из двух современных представителей семейства бобровых
-          (наряду с канадским бобром, которого ранее считали подвидом).
-          Самый крупный грызун фауны Старого Света и второй по величине
-          грызун после капибары..
+        <p>
+          Обыкнове́нный бобр, или речно́й бобр (лат. Castor fiber), — полуводное
+          млекопитающее отряда грызунов; один из двух современных представителей
+          семейства бобровых (наряду с канадским бобром, которого ранее считали
+          подвидом). Самый крупный грызун фауны Старого Света и второй по
+          величине грызун после капибары..
         </p>
       </div>
-      <div class="container">
+      <div>
         <h3>Чем могу быть полезен</h3>
+        <p>
+          Строительство плотин, перегрызание бревен и растущих деревьев любого
+          диаметра, запасание кормов на зиму ну и конечно верстка сайтов в этих
+          ваших тырнетах.
+        </p>
       </div>
-      <div class="container">
-        <p>Строительство плотин, перегрызание бревен и растущих деревьев
-          любого диаметра, запасание кормов на зиму ну и конечно верстка сайтов
-          в этих ваших тырнетах.
-        </p> 
+      <div class="skills">
+        <h3>Мои навыки</h3>
+        <dl class="skills-list">
+          <dt class="skill-html">HTML</dt>
+          <dd class="level">
+            <div style="width: 60%;">60%</div>
+          </dd>
+          <dt class="skill-css">CSS</dt>
+          <dd class="level">
+            <div style="width: 40%;">40%</div>
+          </dd>
+        </dl>
       </div>
-    </section>
+    </div>
+  </section>
 
-    <section class="portfolio">
-      <div class="container">
-        <h2 class="subheading">Мои работы</h2>
-      </div>
-      
-      <div class="container">
-      <h3>Сайт инструктора Кекса</h3>
+  <section class="portfolio">
+    <div class="container">
+      <h2 class="subheading">Мои работы</h2>
+    </div>
+    <div class="container">
+      <h3>1. Сайт инструктора Кекса</h3>
       <p>Небольшой лендинг о школе для начинающих.</p>
+      <figure class="project-image">
+        <img src="files/project1.jpg" width="920" height="536" alt="Cайт инструктора Кекса" />
+      </figure>
+      <a class="button" href="Portfolio/Keks/index.html">Открыть страницу</a>
+      <h3 class="space-around">2. Блог начинающего верстальщика</h3>
+      <p>Статический блог про обучение HTML и CSS (в разработке).</p>
+      <figure class="project-image">
+        <img src="files/project2.jpg" width="920" height="536" alt="Блог начинающего верстальщика" />
+      </figure>
+      <a class="button" href="Portfolio/Blog/project/index.html">Открыть страницу</a>
+    </div>
+  </section>
 
-      <h3>Блог начинающего верстальщика</h3>
-      <p>Статический блог про обучение HTML и CSS.</p>
-      </div>
-    </section>
+  <footer class="page-footer">
+    <div class="container">
+      Контакты в подвале:<br />
+      Телефон
+      <a class="footer-phone" href="tel:+79699699696"> +7 969 969 96 96</a>
+      <br />
+      Почта
+      <a class="footer-email" href="mailto:bober@gmail.com"> bober@gmail.com</a>
+    </div>
+  </footer>
+  <script src="main.js"></script>
+</body>
 
-    <footer class="page-footer">
-      <div class="container">
-        Контакты в подвале
-      </div>
-    </footer>
-  </body>
 </html>
